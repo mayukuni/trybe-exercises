@@ -56,3 +56,13 @@ a:hover {
 #trybe:hover {
     color: green;
 }
+
+a {
+    color: rgb(151, 22, 87);
+    text-decoration: none;
+}
+
+.lista {
+    background-color: rgb(40, 38, 141);
+    border-radius: 3px;    
+}
