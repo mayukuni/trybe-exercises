@@ -23,3 +23,13 @@ li em {
     font-weight:bold;
     font-size: 20px;
 }
+
+.azul {
+    color: blue;
+}
+
+.java  {
+    background-color: pink;
+    color: blue;
+}
+
