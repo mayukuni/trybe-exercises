@@ -33,3 +33,26 @@ li em {
     color: blue;
 }
 
+a:hover {
+    font-weight: bold;
+}
+
+#so:hover {
+    color: orange;
+}
+
+#w3s:hover {
+    color: green;
+}
+
+#mdn:hover {
+    color: black;
+}
+
+#devd:hover {
+    color: yellow;
+}
+
+#trybe:hover {
+    color: green;
+}
