@@ -11,7 +11,8 @@ div:nth-child(4) {
 }
 
 div:nth-child(5) {
-    color:royalblue
+    color:royalblue;
+    font-size: 20px;    
 }
 
 div:nth-child(6) {
@@ -22,4 +23,26 @@ div:nth-child(7) {
     color: rgb(194, 194, 194);
 }
 
+div:nth-child(3) h3 {
+    background-color:blue;
+    font-style: italic;
+    
+}
 
+div:nth-child(4) h3 {
+    background-color: orange;
+}
+
+div:nth-child(5) h3 {
+    background-color: palegreen;
+    font-style: italic;
+}
+
+div:nth-child(6) h3 {
+    background-color: rgb(236, 83, 83);
+}
+
+div:nth-child(7) h3 {
+    background-color: teal;
+    font-style: italic;
+}
