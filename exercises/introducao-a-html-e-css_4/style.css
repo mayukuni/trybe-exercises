@@ -1,0 +1,19 @@
+
+body {
+    color: #235e96;
+    background-color: #94abd8;    
+    padding: 20px;
+    padding-right: 600px;
+}
+
+li {
+    display: inline-block;
+    background-color: rgb(192, 168, 168);
+        padding: 3px;
+}
+
+footer {
+    background-color: cornflowerblue;
+    display: block;
+    text-align: center;
+}
