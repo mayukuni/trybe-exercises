@@ -44,5 +44,5 @@ div:nth-child(6) h3 {
 
 div:nth-child(7) h3 {
     background-color: teal;
-    font-style: italic;
+    font-style: italic;letter-spacing: normal
 }
