@@ -129,3 +129,6 @@ if (num1 % 2 != 0 || num2 % 2 != 0 || num3 % 2 != 0) {
 } else {
   console.log(false);
 }
+
+//10 - Escreva um programa que se inicie com dois valores em duas variáveis diferentes: o custo de um produto e seu valor de venda. A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
+//depois eu termino os exercicios
