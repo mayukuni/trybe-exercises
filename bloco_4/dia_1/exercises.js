@@ -23,9 +23,9 @@ console.log(num1 % num2);
 let num1 = 4; 
 let num2 = 2;
 if (num1 > num2) {
-  console.log(num1)
+  console.log(num1);
 }  else {
-  console.log(num2)
+  console.log(num2);
 }
 
 //3 - Faça um programa que retorne o maior de três números. Defina no começo do programa três variáveis com os valores que serão comparados.
@@ -33,21 +33,21 @@ let num1 = 3;
 let num2 = 5;
 let num3 = 7;
 if (num1 > num2 && num1 > num3) {
-  console.log(num1)
+  console.log(num1);
 } else if (num2 > num1 && num2 > num3) {
-  console.log(num2)
+  console.log(num2);
 } else {
-  console.log(num3)
+  console.log(num3);
 }
 
 //4 - Faça um programa que, dado um valor definido numa variável, retorne "positive" se esse valor for positivo, "negative" se for negativo e "zero" caso contrário.
 let num = 4;
 if (num > 0) {
-console.log("positive")
+console.log("positive");
 }  else if ( num < 0) {
-console.log("negative")
+console.log("negative");
 }  else {
-console.log("zero")
+console.log("zero");
 }
 
 //5 - Faça um programa que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false , caso contrário. Se algum ângulo for inválido o programa deve retornar uma mensagem de erro.
@@ -55,15 +55,15 @@ let num1 = 20;
 let num2 = -4;
 let num3 = 2;
 if (num1 + num2 + num3 == 180) {
-  console.log(true)
+  console.log(true);
 }  else if (num1 < 0) {
-  console.log("error")
+  console.log("error");
 }  else if (num2 < 0) {
-  console.log("error")
+  console.log("error");
 }  else if (num3 < 0) {
-  console.log("error")
+  console.log("error");
 }  else {
-  console.log(false)
+  console.log(false);
 }
 
 //6 - Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
@@ -95,17 +95,27 @@ switch (peça.toLowerCase()) {
 //7 - Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F.
 let nota = 101;
 if (nota >= 90 && nota <= 100) {
-  console.log("A")
+  console.log("A");
 } else if (nota >= 80 && nota <= 100) {
-  console.log("B")
+  console.log("B");
 } else if (nota >= 70 && nota <= 100) {
-  console.log("C")
+  console.log("C");
 } else if (nota >= 60 && nota <= 100) {
-  console.log("D")
+  console.log("D");
 } else if (nota >= 50 && nota <= 100) {
-  console.log("E")
+  console.log("E");
 } else if (nota < 50 && nota >= 0) {
-  console.log("F")
+  console.log("F");
 } else {
   console.log("Erro")
+}
+
+//8 - Escreva um programa que defina três números em variáveis e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false .
+let num1 = 2;
+let num2 = 2;
+let num3 = 2;
+if (num1 % 2 == 0 || num2 % 2 == 0 || num3 % 2 == 0) {
+  console.log(true);
+} else {
+  console.log(false);
 }
