@@ -62,12 +62,30 @@ if (impares > 0) {
   console.log("nenhum valor ímpar encontrado");
 }
 
-//7 - Utilizando for , descubra qual o menor valor contido no array e imprima-o;
+//7 - Utilizando for, descubra qual o menor valor contido no array e imprima-o;
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let maiorValor = 0;
+
+for (let index = 0; index < numbers.length; index += 1) {
+  if (numbers[index] > maiorValor) {
+    maiorValor = numbers[index]
+  } 
+}
+
+let menorValor = maiorValor;
+
+for (let index = 0; index < numbers.length; index += 1) {
+  if (numbers[index] < menorValor) {
+    menorValor = numbers[index]
+  } 
+}
+console.log(menorValor);
 
 
 //8 - Utilizando for , crie um array que vá de 1 até 25 e imprima o resultado;
 let array = 0;
 for (let index; index < array.length; index +=1) {
+  
 
 }
 
