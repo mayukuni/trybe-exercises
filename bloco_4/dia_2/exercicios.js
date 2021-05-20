@@ -38,12 +38,15 @@ if (mediaAritmetica > 20) {
   console.log("Valor maior ou igual a 20");
 }
 
-//[terminar depois]5 - Utilizando for , descubra qual o maior valor contido no array e imprima-o;
+//5 - Utilizando for, descubra qual o maior valor contido no array e imprima-o;
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let maiorValor = 0;
 for (let index = 0; index < numbers.length; index += 1) {
-  if (index > index) 
+  if (numbers[index] > maiorValor) {
+    maiorValor = numbers[index]
+  } 
 }
+console.log(maiorValor)
 
 //6 - Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
@@ -61,6 +64,12 @@ if (impares > 0) {
 
 //7 - Utilizando for , descubra qual o menor valor contido no array e imprima-o;
 
+
+//8 - Utilizando for , crie um array que vá de 1 até 25 e imprima o resultado;
+let array = 0;
+for (let index; index < array.length; index +=1) {
+
+}
 
 
 
