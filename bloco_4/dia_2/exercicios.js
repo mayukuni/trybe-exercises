@@ -82,12 +82,14 @@ for (let index = 0; index < numbers.length; index += 1) {
 console.log(menorValor);
 
 
-//8 - Utilizando for , crie um array que vá de 1 até 25 e imprima o resultado;
-let array = 0;
-for (let index; index < array.length; index +=1) {
-  
-
+//[testar mais depois] 8 - Utilizando for , crie um array que vá de 1 até 25 e imprima o resultado;
+let array = [];
+for (let index = 1; index <=25; index +=1) {
+  array.push(index);
 }
+console.log(array);
+
+
 
 
 
