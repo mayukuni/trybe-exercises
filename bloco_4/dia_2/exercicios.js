@@ -1,5 +1,3 @@
-
-
 //1 - Nesse primeiro exercício, percorra o array imprimindo todos os valores nele contidos com a função console.log() ;
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 for (let index = 0; index < numbers.length; index += 1) {
@@ -90,16 +88,23 @@ for (let index = 1; index <=25; index +=1) {
 console.log(array);
 
 //9 - Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2.
-let array = [];
+/*[tentativa 1]let array = [];
 for (let index = 1; index <=25; index +=1) {
   array.push(index);
 
   for (let indexDividido = 0; indexDividido < array.length; indexDividido +=1) {
     console.log(array[indexDividido] / 2);
   }
+} */
+
+let array = [];
+for (let index = 1; index <=25; index +=1) {
+  array.push(index);
 } 
-
-
+for (let index = 0; index < array.length; index += 1) {
+  let dividido = (array[index] / 2)
+console.log(dividido)
+} 
 
 
 
