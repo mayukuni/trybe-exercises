@@ -130,5 +130,15 @@ if (num1 % 2 != 0 || num2 % 2 != 0 || num3 % 2 != 0) {
   console.log(false);
 }
 
-//10 - Escreva um programa que se inicie com dois valores em duas variáveis diferentes: o custo de um produto e seu valor de venda. A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
-//depois eu termino os exercicios
+//10 - Escreva um programa que se inicie com dois valores em duas variáveis diferentes: o custo de um produto e seu valor de venda. A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos. 
+let custo = 4;
+let valor = 4;
+let custoTotal = custo * 1.2;
+let lucro = valor - custoTotal;
+if (valor >=0 && custoTotal >= 0) {
+  console.log(lucro * 1000);
+} else {
+  console.log("erro");
+}
+
+
