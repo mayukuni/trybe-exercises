@@ -57,39 +57,39 @@
   </head>
   <body>
     <script>
-      //1- 
+      // 1- 
       var pai = document.getElementsByTagName('body')[0]
       var h1 = document.createElement('h1');
       pai.appendChild(h1);
       let texto = document.createTextNode("Exercício 5.2 - JavaScript DOM");
       h1.appendChild(texto);
-      //2-
+      // 2-
       let div = document.createElement('div');
       pai.appendChild(div);
       div.classList.add('main-content');
-      //3- 
+      // 3- 
       let div2 = document.createElement('div');
       div2.classList.add('center-content');
       div.appendChild(div2);
-      //4-
+      // 4-
       let p = document.createElement('p');
       div2.appendChild(p);
       let texto2 = document.createTextNode('testezinho');
       p.appendChild(texto2);
-      //5- 
+      // 5- 
       let div3 = document.createElement('div');
       div3.classList.add('left-content');
       div.appendChild(div3);
-      //6-
+      // 6-
       let div4 = document.createElement('div');
       div4.classList.add('right-content');
       div.appendChild(div4);
-      //7-
+      // 7-
       // let img = document.createElement('img');
       // document.querySelectorAll('img')[0].src = 'https://picsum.photos/200'
       // div3.appendChild(img)
-      //8-
-      //9- 
+      // 8-
+      // 9- 
       let fh3 = document.createElement('h3');
       div.appendChild(fh3);
       let sh3 = document.createElement('h3');
@@ -97,6 +97,20 @@
       let th3 = document.createElement('h3');
       div.appendChild(th3);
       
+      // 2.1- Adicione a classe title na tag h1 criada;
+      h1.classList.add('title');
+      // 2.2- Adicione a classe description nas 3 tags h3 criadas;
+      fh3.classList.add('description');
+      sh3.classList.add('description');
+      th3.classList.add('description');
+      // 2.3- Remova o div criado no passo 5 (aquele que possui a classe left-content ). Utilize a função .removeChild();
+      div.removeChild(div3);
+      // 2.4- Centralize o div criado no passo 6 (aquele que possui a classe right-content ). Dica: para centralizar, basta configurar o margin-right: auto do div;
+      div4.style.marginRight = 'auto';
+      // 2.5- Troque a cor de fundo do elemento pai da div criada no passo 3 (aquela que possui a classe center-content ) para a cor verde;
+      div2.style.backgroundColor = 'green';
+      // 2.6- Remova os dois últimos elementos ( nove e dez ) da lista criada no passo 8.
+
     </script>
   </body>
 </html>
