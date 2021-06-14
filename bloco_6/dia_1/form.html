@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap-5.0.1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+  <link href="validation.min.css" rel="stylesheet">
+  <script src="validation.min.js"></script> 
+  <title>currículo</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <div class="mb-3">
+        <label for="nome" class=form-label>Nome</label> 
+        <input type="text" class="form-control validate" maxlength="40" id="nome" required>
+      </div>
+      <div class="mb-3">
+        Email <input type="text" maxlength="50" class="form-control" required>
+      </div>
+      <div class="mb-3">
+      CPF <input type="text" maxlength="11" class="form-control" required>
+      </div>
+      <div class="mb-3">
+      Endereço <input type="text" maxlength="200" class="form-control" required>
+      </div>
+      <div class="mb-3">
+      Cidade <input type="text" maxlength="28" class="form-control" required>
+      </div>
+      <div class="mb-3">
+      Estado <select id="estado" class="form-control" required></select>
+      </div>
+      <div class="mb-3">
+      <label class=form-label>Tipo</label> <label for="casa">
+        <input type="radio" id="casa" name="tipo" required>Casa 
+      </label>
+      <label for='apt'> 
+        <input type="radio" id="apt" name="tipo" required>Apartamento 
+      </label>
+      </div class="mb-3">
+    </fieldset>
+
+    <fieldset>
+      <div class="mb-3">
+        Resumo do currículo <textarea maxlength="1000" class="form-control" required></textarea>
+      </div>
+
+      <div class="mb-3">
+        Cargo <input type="text" maxlength="40" class="form-control" required>
+      </div>
+
+      <div class="mb-3">
+        Descrição do cargo <input type="text" maxlength="500" class="form-control" required>
+      </div>
+
+      <div class="mb-3">
+        Data de início <input type="text" id="datepicker">
+      </div>
+    </fieldset>
+  </form>
+  <script src="script.js"></script>
+  <script src="pikaday.js"></script>
+  <script>
+    var picker = new Pikaday({ field: document.getElementById('datepicker') });
+  </script>
+</body>
+</html>
