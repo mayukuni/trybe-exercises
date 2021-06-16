@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 15px 5px;
+  font-size: 20px;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+header p {
+  font-size: 30px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-right: 40px;
+}
+
+hr {
+  background-color: rgb(25, 38, 53);
+  border: none;
+  height: 1px;
+  opacity: 70%;
+}
+
+/* @media screen and (min-width: 480px) {
+  body {
+    background-color: rgb(170, 196, 219);
+  }
+
+  header p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+  }
+
+  .aside {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .aside-one {
+  }
+
+  .aside-two {
+    flex-shrink: 2;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: #222831;
+    color: #DDDD;
+    margin: 0px 40px;
+  }
+
+  hr {
+    background-color: #DDDD;
+  }
+} */
