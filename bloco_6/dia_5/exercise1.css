@@ -1,0 +1,44 @@
+body {
+  font-size: 20px;
+  margin: 20px;
+}
+h1 {
+  font-size: 30px;
+}
+h2 {
+
+}
+
+img {
+    max-width: 100%;
+    margin: 15px 0px;
+}
+
+figure {
+    margin: 0;
+}
+
+@media screen and (min-width: 611px) {
+  body {
+    background-color: rgb(223, 173, 173);
+    font-size: 18px;
+    margin: 15px
+  }
+
+  figure {
+    float: left;
+  }
+
+  img {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 911px) {
+  body {
+    background-color:rgb(253, 222, 222) ;
+    font-size: 16px;
+    margin: 10px;
+    max-width: 1200px;
+  }
+}
