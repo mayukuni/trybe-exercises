@@ -29,7 +29,7 @@ hr {
   opacity: 70%;
 }
 
-/* @media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) {
   body {
     background-color: rgb(170, 196, 219);
   }
@@ -54,7 +54,7 @@ hr {
   }
 }
 
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   body {
     background-color: #222831;
     color: #DDDD;
